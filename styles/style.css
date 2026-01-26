@@ -81,7 +81,7 @@ nav{
     background-color: #412567; 
     margin: 0 auto;
     /* border: 1px solid red;  */
-  background-image: url(/assets/hero-bg.png);
+  background-image: url("../assets/hero-bg.png");
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,8 +100,9 @@ nav{
     height: 40px;
     border-radius: 20px ;
     box-shadow: 0px 3px 27px 0px rgba(0,255,136,.5);
-    margin-left: 300px;
-    margin-top: 0px;
+    top:20%;
+ right:41%;
+    
     position: absolute;
 }
 .image-container{
@@ -475,7 +476,7 @@ border-radius: 40px;
     background-color: #412567;
     box-sizing: border-box;
     margin: 0 auto;
-     background-image: url(/assets/footer-bg.png);
+     background-image: url("../assets/footer-bg.png");
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat; 
